@@ -1,0 +1,25 @@
+@{
+    ViewData["title"] = "Add New Product";
+}
+
+<body>
+    <form method="post" action="/Product/add">
+        <div>
+            <label for="Name">Product Name:</label>
+            <input type="text" id="Name" name="Name">
+        </div>
+        <div>
+            <label for="Price">Price:</label>
+            <input type="number" step="1" id="Price" name="Price" min="0">
+        </div>
+        <div>
+            <label for="Stock">Stock Count:</label>
+            <input type="number" step="1" id="Stock" name="Stock" min="0">
+        </div>
+        <div>
+            <label for="Description">Description:</label>
+            <textarea name="Description" id="Description" cols="30" rows="3"></textarea>
+        </div>
+        <button type="submit">Add</button>
+    </form>
+</body>

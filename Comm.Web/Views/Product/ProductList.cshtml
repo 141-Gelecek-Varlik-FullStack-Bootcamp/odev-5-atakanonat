@@ -1,0 +1,34 @@
+@using Comm.Model.Product
+@{
+    var Products = (List<Product>)ViewBag.Products;
+    ViewData["title"] = "Product List";
+}
+
+<body>
+    <h1>Product List</h1>
+    <br />
+    <form method="get">
+        <div>
+            <label for="searchString">Search Product:</label>
+            <input type="text" name="searchString" id="searchString">
+            <input type="submit" value="Search" />
+        </div>
+    </form>
+    <br />
+    @foreach (var product in Products)
+    {
+        <ul>
+            <p><b>Product: </b>@product.Name</p>
+            <li>
+                <p>Description:@product.Description</p>
+            </li>
+            <li>
+                <p>Stock Count:@product.Stock</p>
+            </li>
+            <li>
+                <p>Price:@product.Price</p>
+            </li>
+        </ul>
+        <br />
+    }
+</body>

@@ -1,0 +1,21 @@
+@using Comm.Model.Product
+@model Product
+@{
+    var Product = (Product)ViewBag.Product;
+    ViewData["title"] = Product.Name;
+}
+
+<body>
+    <h2>Product: @Product.Name</h2>
+    <ul>
+        <li>
+            <p><b>Description: </b>@Product.Description</p>
+        </li>
+        <li>
+            <p><b>Stock: </b>@Product.Stock</p>
+        </li>
+        <li>
+            <p><b>Price: </b>@Product.Price</p>
+        </li>
+    </ul>
+</body>
