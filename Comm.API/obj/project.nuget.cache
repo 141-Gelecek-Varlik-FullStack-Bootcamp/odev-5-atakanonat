@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ghxalxIEJIdPOfYYS43YsyYciIN12J3QxpEIyHzHQcRRwHfn48oz7FlZ640e8CIxnYo/Ik7VL/WUuU1ID+c20Q==",
+  "dgSpecHash": "UP5yQSzQ8gaEc6Sj57mRvWWgtATGMMnO6aS+EXjEjbpnk5LRSgu27pQx+Xje/TPt/dyGKyehDqycH9gNDsEjVA==",
   "success": true,
-  "projectFilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj",
+  "projectFilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj",
   "expectedPackageFiles": [
     "/Users/atakanonat/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/atakanonat/.nuget/packages/hangfire.aspnetcore/1.8.0-beta4/hangfire.aspnetcore.1.8.0-beta4.nupkg.sha512",

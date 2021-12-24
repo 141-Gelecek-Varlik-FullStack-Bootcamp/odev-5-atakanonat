@@ -4,7 +4,9 @@ using System.Text.Json;
 using Comm.API.Infrastructure;
 using Comm.Model;
 using Comm.Model.User;
+using Comm.Service.Email;
 using Comm.Service.User;
+using Hangfire;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 
@@ -16,16 +18,23 @@ namespace Comm.API.Controllers
     {
         private readonly IUserService _userService;
         private readonly IDistributedCache _distributedCache;
-        public UserController(IUserService userService, IDistributedCache distributedCache)
+        private readonly HangfireJobs _hangfireJobs;
+        public UserController(IUserService userService, IDistributedCache distributedCache, IEmailService emailService)
         {
             _userService = userService;
             _distributedCache = distributedCache;
+            _hangfireJobs = new HangfireJobs(emailService);
         }
 
         [HttpPost("/api/[controller]/register")]
         public Common<Model.User.User> Register([FromForm] User newUser)
         {
-            return _userService.Register(newUser);
+            var result = _userService.Register(newUser);
+            if (result.IsSuccess)
+            {
+                BackgroundJob.Schedule(() => _hangfireJobs.SendWelcomeMail(result.Entity.Name, result.Entity.Email), TimeSpan.FromDays(1));
+            }
+            return result;
         }
 
         [HttpPost("/api/[controller]/login")]

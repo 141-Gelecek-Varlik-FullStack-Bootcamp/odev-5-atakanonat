@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJ7j3ZOQSHIjFhAn/OQcNHLtuji0eho7xvlWLLyIRBmnfaOPWBYoo+Q/8uzu4Om2eimmvgwwX23XGoqpR8KBgg==",
+  "dgSpecHash": "zq1RQbD1w+fOBIVYn6snwYoDjARTOnVR5FJJz1izwiEFlXLwa79Im2hdWmPOsWP94T+4NWR2D1P+ue27HfEnSA==",
   "success": true,
-  "projectFilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj",
+  "projectFilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj",
   "expectedPackageFiles": [
     "/Users/atakanonat/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/atakanonat/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

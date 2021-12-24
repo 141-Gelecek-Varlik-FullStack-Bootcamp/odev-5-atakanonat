@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Comm.Web.csproj",
+  "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Comm.Web.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,68 +15619,68 @@
   "RootNamespace": "Comm.Web",
   "Documents": [
     {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/User/RegisterForm.cshtml",
-      "TargetPath": "Views\\User\\RegisterForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Product/ProductAddForm.cshtml",
-      "TargetPath": "Views\\Product\\ProductAddForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Product/ProductList.cshtml",
-      "TargetPath": "Views\\Product\\ProductList.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Shared/_Layout.cshtml",
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Product/ProductUpdateForm.cshtml",
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/User/LoginForm.cshtml",
+      "TargetPath": "Views\\User\\LoginForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Product/ProductUpdateForm.cshtml",
       "TargetPath": "Views\\Product\\ProductUpdateForm.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Product/ProductList.cshtml",
+      "TargetPath": "Views\\Product\\ProductList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/Product/GetProduct.cshtml",
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Product/GetProduct.cshtml",
       "TargetPath": "Views\\Product\\GetProduct.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Views/User/LoginForm.cshtml",
-      "TargetPath": "Views\\User\\LoginForm.cshtml",
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Product/ProductAddForm.cshtml",
+      "TargetPath": "Views\\Product\\ProductAddForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/User/RegisterForm.cshtml",
+      "TargetPath": "Views\\User\\RegisterForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],

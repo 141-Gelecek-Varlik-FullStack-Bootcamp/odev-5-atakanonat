@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OF5ZxyB5qGvLcLd98C1+MxroTcRbKRFKTFDLNihNdgGtsSpEga7DTXsGrp0aukXlF0x+a62hYYCLR8ZxDGiuWg==",
+  "dgSpecHash": "+EkVsLDuYhHDC601xDIcwvpuhF49BWQeAf9lkM0C8r0ItxZLzTm3avkgQGCHHUad7pc8v+NmySwNvFguOC9lFg==",
   "success": true,
-  "projectFilePath": "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj",
+  "projectFilePath": "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj",
   "expectedPackageFiles": [
     "/Users/atakanonat/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/atakanonat/.nuget/packages/mailkit/3.0.0/mailkit.3.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {}
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {}
   },
   "projects": {
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj",
         "projectName": "Comm.Model",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Comm.Web.csproj": {}
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Comm.Web.csproj": {}
   },
   "projects": {
-    "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj",
         "projectName": "Comm.API",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.API/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.config/NuGet/NuGet.Config"
@@ -26,14 +26,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj"
               },
-              "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj"
               },
-              "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj"
               }
             }
           }
@@ -51,6 +51,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0-beta4, )"
+            },
+            "Hangfire.Redis.StackExchange": {
+              "target": "Package",
+              "version": "[1.8.5, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
@@ -83,14 +91,14 @@
         }
       }
     },
-    "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj",
         "projectName": "Comm.DB",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.config/NuGet/NuGet.Config"
@@ -151,14 +159,14 @@
         }
       }
     },
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj",
         "projectName": "Comm.Model",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.config/NuGet/NuGet.Config"
@@ -203,14 +211,14 @@
         }
       }
     },
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj",
         "projectName": "Comm.Service",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Service/Comm.Service.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Service/Comm.Service.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Service/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.config/NuGet/NuGet.Config"
@@ -225,11 +233,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.DB/Comm.DB.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.DB/Comm.DB.csproj"
               },
-              "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj"
               }
             }
           }
@@ -247,6 +255,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
@@ -268,14 +280,14 @@
         }
       }
     },
-    "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Comm.Web.csproj": {
+    "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Comm.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Comm.Web.csproj",
+        "projectUniqueName": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Comm.Web.csproj",
         "projectName": "Comm.Web",
-        "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/Comm.Web.csproj",
+        "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/Comm.Web.csproj",
         "packagesPath": "/Users/atakanonat/.nuget/packages/",
-        "outputPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Web/obj/",
+        "outputPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakanonat/.config/NuGet/NuGet.Config"
@@ -290,11 +302,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.API/Comm.API.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.API/Comm.API.csproj"
               },
-              "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj": {
-                "projectPath": "/Users/atakanonat/dev/C#/odev-4/Comm.Model/Comm.Model.csproj"
+              "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj": {
+                "projectPath": "/Users/atakanonat/dev/C#/odev-5/Comm.Model/Comm.Model.csproj"
               }
             }
           }
