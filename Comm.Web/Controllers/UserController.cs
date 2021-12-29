@@ -22,12 +22,24 @@ namespace Comm.API.Controllers
             return View();
         }
 
-        // [HttpPost("/[controller]/register")]
-        // public IActionResult Register([FromForm] User newUser)
-        // {
-        //     var result = userService.Register(newUser);
-        //     return Redirect("/User/login");
-        // }
+        [HttpPost("/[controller]/register")]
+        public IActionResult Register([FromForm] User newUser)
+        {
+            // var result = userService.Register(newUser);
+            // return Redirect("/User/login");
+            using (var client = new HttpClient())
+            {
+                var content = JsonContent.Create(newUser);
+                var postTask = client.PostAsync("https://localhost:5001/api/User/register", content);
+                postTask.Wait();
+                var response = postTask.Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("login", "User");
+                }
+            }
+            return RedirectToAction("register", "User");
+        }
 
         [HttpGet("/[controller]/login")]
         public IActionResult LoginForm()

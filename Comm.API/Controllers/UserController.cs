@@ -27,14 +27,14 @@ namespace Comm.API.Controllers
         }
 
         [HttpPost("/api/[controller]/register")]
-        public Common<Model.User.User> Register([FromForm] User newUser)
+        public IActionResult Register([FromForm] User newUser)
         {
             var result = _userService.Register(newUser);
             if (result.IsSuccess)
             {
                 BackgroundJob.Schedule(() => _hangfireJobs.SendWelcomeMail(result.Entity.Name, result.Entity.Email), TimeSpan.FromDays(1));
             }
-            return result;
+            return Ok(result);
         }
 
         [HttpPost("/api/[controller]/login")]
